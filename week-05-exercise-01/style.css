@@ -127,6 +127,7 @@ button {
     0 6px 0 0 #dcdcdc,
     0 7px 0 0 #cacaca,
     0 7px 8px 0 #ececec;
+    transition: all 0.3s;
 }
 
 .button-05:hover {
@@ -146,6 +147,7 @@ button {
     background-color: orange;
     color: black;
     border: 2px solid black;
+    transition: all 0.3s;
 }
 
 .button-06:hover {
