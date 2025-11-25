@@ -147,15 +147,36 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-centered {
+  background-color: #666666;
+  padding: 16px 0;
+}
 
-.nav-custom ul {}
+.nav-centered ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
 
-.nav-custom li {}
+.nav-centered li {
+  position: relative;
+  padding: 8px 0;
+}
 
-.nav-custom a {}
+.nav-centered a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
 
-.nav-custom a:hover {}
+.nav-centered a:hover {
+  color: #333333;
+  transform: translateY(-2px);
+}
 
 @media (width >=480px) {}
 
