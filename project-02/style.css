@@ -169,13 +169,13 @@ footer {
     margin-top: 40px;
 }
 
-footer a {
-    color: var(--accent);
+footer p a {
+    color: whitesmoke;
     text-decoration: wavy;
     transition: color 0.3s;
 }
 
-footer:hover {
+footer p a:hover {
     color: var(--accent);
 }
 
