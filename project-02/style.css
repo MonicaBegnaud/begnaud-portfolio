@@ -18,6 +18,10 @@ body {
     line-height: 1.5;
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
 }
@@ -104,6 +108,7 @@ nav a:hover {
 .project-card p {
     padding: 0 15px 20px;
     text-align: center;
+    color: var(--dark);
 }
 
 .project-card:hover {
@@ -111,8 +116,53 @@ nav a:hover {
     box-shadow: 0 8px 16px #3a0f66(0,0,0,0.25)
 }
 
+.collection-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.collection-card {
+    border: 1px solid #3a0f66(0, 0, 0, 0.25);
+    background-color: var(--secondary);
+    padding: 16px;
+    flex: 1 1 300px;
+}
+
+.collection-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #3a0f66(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+
+.collection-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    color: var(--dark) ;
+}
+
+.collection-card .details {
+    font-size: 20px;
+    color: var(--dark) (0, 0, 0, 0.6);
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+.collection-card .description {
+    font-size: 16px;
+    color: var(--dark) (0, 0, 0, 0.6);
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
 footer {
-    background: var(--primary);
+    background: var(--secondary);
     color: whitesmoke;
     text-align: center;
     padding: 25px;
